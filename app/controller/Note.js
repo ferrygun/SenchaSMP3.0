@@ -128,7 +128,7 @@ Ext.define("FD4.controller.Note",{
 						enablePagingParams: false,
 						withCredentials: true,	
 						username: 'P1940517092',
-						password: 'Initial123',
+						password: 'Password',
 						url: "http://192.168.0.14/sapgw/com.FD.Demo/CountryCollection('" + formData.CountryCode + "')",
 						listeners: {
 							'exception': function (proxy, response, operation) {
